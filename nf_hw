@@ -1,1 +1,19 @@
-println "Hello world"
+nextflow.enable.dsl=2
+params.message= "Hello world"
+process PRINT {
+input:
+val msg
+
+script:
+"""
+echo $msg
+"""
+
+
+}
+
+workflow {
+
+PRINT(params.message)
+
+}
