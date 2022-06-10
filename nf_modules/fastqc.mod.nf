@@ -2,7 +2,7 @@ nextflow.enable.dsl=2
 params.nogroup = false
 
 process FASTQC {
-
+	container "/exports/igmm/eddie/BioinformaticsResources/nf-core/singularity-images/depot.galaxyproject.org-singularity-fastqc-0.11.9--0.img"
 	tag "$name" // Adds name to job submission instead of (1), (2) etc.
 
 	input:
@@ -30,7 +30,7 @@ process FASTQC {
 		}
 
 		"""
-		module load fastqc
+		#module load fastqc
 		fastqc $fastqc_args -q -t 2 ${reads}
 		"""
 }
