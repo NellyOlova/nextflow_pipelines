@@ -1,0 +1,6 @@
+name	Zebrafinch
+species	Zebrafinch
+fasta	/exports/igmm/datastore/tchandra-lab/Nelly/Genomes/Zebrafinch
+bismark	/exports/igmm/datastore/tchandra-lab/Nelly/Genomes/Zebrafinch
+bowtie	/exports/igmm/datastore/tchandra-lab/Nelly/Genomes/Zebrafinch
+bowtie2	/exports/igmm/datastore/tchandra-lab/Nelly/Genomes/Zebrafinch
