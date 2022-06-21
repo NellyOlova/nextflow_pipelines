@@ -107,7 +107,6 @@ process BISMARK {
 		// println ("Output basename: $bismark_name")
 		
 		"""
-		module load bismark
 		bismark --parallel $cores --basename $bismark_name $index $bismark_options $readString
 		"""
 
