@@ -1,0 +1,6 @@
+name	Zebrafinch
+species	Zebrafinch
+fasta	/gpfs/igmmfs01/eddie/tchandra-lab/Nelly/Genomes/Zebrafinch
+bismark	/gpfs/igmmfs01/eddie/tchandra-lab/Nelly/Genomes/Zebrafinch
+bowtie	/gpfs/igmmfs01/eddie/tchandra-lab/Nelly/Genomes/Zebrafinch
+bowtie2	/gpfs/igmmfs01/eddie/tchandra-lab/Nelly/Genomes/Zebrafinch
