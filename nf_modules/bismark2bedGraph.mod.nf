@@ -44,7 +44,6 @@ process BISMARK2BEDGRAPH {
 		all_reads = reads
 
 		"""
-		module load bismark
 		bismark2bedGraph --buffer 15G -o $output_name $bismark2bedGraph_options $all_reads
 		"""
 		
