@@ -30,7 +30,7 @@ process FASTQC {
 		}
 
 		"""
-		#module load fastqc
+		#module load igmm/apps/FastQC/0.11.9
 		fastqc $fastqc_args -q -t 2 ${reads}
 		"""
 }
